@@ -1,4 +1,4 @@
-LOCAL_PATH := device/lenovo/aio_row
+LOCAL_PATH := device/lenovo/aio_otfp
 
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/board/bootimg.mk
