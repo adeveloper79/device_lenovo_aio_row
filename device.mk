@@ -21,7 +21,7 @@ $(call inherit-product, device/common/gps/gps_as_supl.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-LOCAL_PATH := device/lenovo/aio_row
+LOCAL_PATH := device/lenovo/aio_otfp
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -71,4 +71,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Vendor
-$(call inherit-product, vendor/lenovo/aio_row/aio_row-vendor.mk)
+$(call inherit-product, vendor/lenovo/aio_otfp/aio_otfp-vendor.mk)

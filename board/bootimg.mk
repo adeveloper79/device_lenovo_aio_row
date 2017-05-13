@@ -1,4 +1,4 @@
-LOCAL_PATH := device/lenovo/aio_row
+LOCAL_PATH := device/lenovo/aio_otfp
 
 MKIMAGE :=  $(LOCAL_PATH)/board/mkimage
 

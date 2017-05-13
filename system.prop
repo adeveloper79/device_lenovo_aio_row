@@ -1,5 +1,5 @@
 #
-# system.prop for aio_row
+# system.prop for aio_otfp
 #
 
 ro.hardware=mt6752
@@ -35,7 +35,7 @@ wifi.direct.interface=p2p0
 # Graphic
 debug.hwui.render_dirty_regions=false
 drm.service.enabled=true
-ro.sf.lcd_density=320
+ro.sf.lcd_density=480
 ro.opengles.version=196608
 ro.kernel.qemu.gles=0
 ro.sf.hwrotation=0

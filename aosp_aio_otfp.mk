@@ -20,20 +20,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from aio_row device
-$(call inherit-product, device/lenovo/aio_row/device.mk)
+$(call inherit-product, device/lenovo/aio_otfp/device.mk)
 
 # Inherit some common aosp stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := aio_row
-PRODUCT_NAME := aosp_aio_row
+PRODUCT_DEVICE := aio_otfp
+PRODUCT_NAME := aosp_aio_otfp
 PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := A7000-a
+PRODUCT_MODEL := K3 Note
 PRODUCT_MANUFACTURER := Lenovo
 
 # Boot animation
-TARGET_SCREEN_WIDTH := 720
-TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 1920
+TARGET_SCREEN_HEIGHT := 1080
 
-$(call inherit-product-if-exists, vendor/lenovo/aio_row/aio_row-vendor.mk)
+$(call inherit-product-if-exists, vendor/lenovo/aio_otfp/aio_otfp-vendor.mk)
