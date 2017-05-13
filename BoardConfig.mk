@@ -15,14 +15,14 @@
 #
 
 # inherit from the proprietary version
--include vendor/lenovo/aio_row/BoardConfigVendor.mk
+-include vendor/lenovo/aio_otfp/BoardConfigVendor.mk
 
-LOCAL_PATH := device/lenovo/aio_row
+LOCAL_PATH := device/lenovo/aio_otfp
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := aio_row,A7000-a
+TARGET_OTA_ASSERT_DEVICE := aio_otfp,K50-T5,k50-t5
 
 include $(LOCAL_PATH)/board/*.mk
 
