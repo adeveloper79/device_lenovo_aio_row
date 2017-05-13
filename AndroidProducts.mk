@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_aio_row.mk  \
+    $(LOCAL_DIR)/aosp_aio_otfp.mk  \
     $(LOCAL_DIR)/device.mk
