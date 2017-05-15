@@ -1,21 +1,15 @@
 [
   {
     "remote":      "github",
-    "repository": "rohantaneja/android_hardware_lenovo_aio_row",
-    "target_path": "hardware/lenovo/aio_row",
-    "branch": "aosp-7.x"
-  },
-  {
-    "remote":      "github",
-    "repository": "rohantaneja/android_vendor_lenovo_aio_row",
-    "target_path": "vendor/lenovo/aio_row",
-    "branch": "aosp-7.x"
+    "repository": "adeveloper79/proprietary_vendor_lenovo_aio_otfp",
+    "target_path": "vendor/lenovo/aio_otfp",
+    "branch": "n"
   },
   {
      "remote":      "github",
-     "repository": "rohantaneja/daredevil-kernel",
-     "target_path": "kernel/lenovo/aio_row",
-     "branch": "nougat"
+     "repository": "adeveloper79/renice_kernel_aio_otfp",
+     "target_path": "kernel/lenovo/aio_otfp",
+     "branch": "master"
   }
 ]
 
